@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+}
+
+
+main input {
+    display: block;
+    padding: 5px 10px;
+}
+
+#hex {
+    text-transform: uppercase;
+}
+
+main button {
+    background-color: aquamarine;
+    color: black;
+    padding: 5px 20px;
+}
+
+.div1 {
+    display: flex;
+}
